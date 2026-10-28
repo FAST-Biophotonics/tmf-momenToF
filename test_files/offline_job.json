@@ -1,0 +1,59 @@
+{
+ "calibration": "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\PublicationSoftware\\test_files\\calibration_B2_irf.json",
+ "files": [
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\A2.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\A3.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\A5.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\A7.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\B2.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\B3.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\B5.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\B7.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\C2.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\C3.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\C5.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\C7.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\D2.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\D3.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\D5.csv",
+  "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\data\\data_lightpipe\\D7.csv"
+ ],
+ "fit": {
+  "mode": "both",
+  "fix_value": 10.0,
+  "fix_from": "both",
+  "n": 1.42,
+  "n_out": 1.0
+ },
+ "outputs": {
+  "timeseries": true,
+  "rolling_s": 0,
+  "trim": null,
+  "compare": "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\PublicationSoftware\\test_files\\known_values.csv"
+ },
+ "ref_calibration": "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\PublicationSoftware\\test_files\\calibration_B3_irf.json",
+ "time_zero": {
+  "mode": "irf",
+  "irf": null
+ },
+ "outdir": "C:\\Users\\keela.hughes\\OneDrive - University College Cork\\TNI - FAST Biophotonics - Documents\\General\\Users\\Keela\\aquisition_update\\pToF Console\\MomentCalc\\PublicationSoftware\\test_files",
+ "created": "2026-10-20T12:20:31",
+ "finished": "2026-10-20T12:21:10",
+ "calibration_summary": {
+  "t0_ps": -183.26779723397493,
+  "rho_mm": 18.0,
+  "logk": 16.601019958328745,
+  "refs": [
+   "B2"
+  ],
+  "time_zero": "irf",
+  "background": "dl"
+ },
+ "ref_calibration_summary": {
+  "t0_ps": -193.26864536725645,
+  "logk": 16.714376527596336,
+  "refs": [
+   "B3"
+  ]
+ }
+}
